@@ -1,0 +1,41 @@
+.modal-cont {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #00000024;
+    top: 0;
+    left: 0;
+}
+.modal {
+    background-color: white;
+    padding: 32px;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    left: 50%;
+    top: 64px;
+    transform: translateX(-50%)
+}
+
+.cardheading {
+    color: DodgerBlue;
+}
+    
+h3 {
+    color: green;
+}
+    
+h4 {
+    color: MediumSeaGreen;
+}
+    
+h2 {
+    color: Tomato;
+}
+    
+.btn {
+    font-size: 16px;
+    border-radius: 7px;
+    margin: 20px;
+    cursor: pointer;
+}
